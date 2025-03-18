@@ -1,0 +1,143 @@
+/* General styles for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header Styles */
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+header #logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Hero Section Styles */
+#hero {
+    background-color: #ff8da1;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+#hero h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #ff8da1;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero .btn:hover {
+    background-color: #ff6079;
+}
+
+/* Cake Catalog Section */
+#catalog {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#catalog h2 {
+    font-size: 2.5em;
+    color: #ff8da1;
+}
+
+#catalog .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#catalog .gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #ff8da1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Order Form Section */
+#order-form {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#order-form h2 {
+    font-size: 2.5em;
+    color: #ff8da1;
+}
+
+#order-form form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#order-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+#order-form input, #order-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#order-form button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff8da1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#order-form button:hover {
+    background-color: #ff6079;
+}
